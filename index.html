@@ -22,7 +22,6 @@
 </head>
 
 <body>
-        
     <h1>Data Visualisation</h1>
 
     <h2>DC Scatter Plot</h2>
@@ -31,9 +30,8 @@
         <h3>Transactions Per Date, colour coded by person</h3>
         <div id="scatter-plot"></div>
     </div>
-  
+
     <script>
-          <img src="https://github.com/ilannATLAN10/datavisualisation/blob/master/image.png"
         queue()
             .defer(d3.json, "data/transactions.json")
             .await(makeGraphs);
